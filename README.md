@@ -1,1 +1,88 @@
-# website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automated Customer Solutions</title>
+<style>
+  /* Reset */
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: 'Helvetica Neue', sans-serif; color: #333; line-height:1.6; }
+  a { text-decoration:none; color:white; }
+
+  /* Hero */
+  header { 
+    height:100vh; 
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?technology,office') center/cover no-repeat;
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    align-items:center; 
+    text-align:center; 
+    color:white;
+    padding:0 20px;
+  }
+  header h1 { font-size:3em; margin-bottom:20px; animation: fadeInDown 1s ease forwards; }
+  header p { font-size:1.3em; margin-bottom:30px; max-width:600px; animation: fadeInUp 1s ease forwards; }
+  .cta { background:#ff6f61; padding:15px 30px; border-radius:50px; font-weight:bold; transition:0.3s; display:inline-block; }
+  .cta:hover { background:#ff3b2f; }
+
+  /* Sections */
+  section { padding:80px 20px; max-width:1000px; margin:0 auto; }
+  section h2 { color:#4a90e2; font-size:2em; margin-bottom:20px; }
+  section p { font-size:1.1em; margin-bottom:20px; }
+
+  /* Benefits grid */
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+  .card { background:#f8f9fa; padding:20px; border-radius:10px; box-shadow:0 4px 6px rgba(0,0,0,0.1); transition:0.3s; }
+  .card:hover { transform: translateY(-5px); box-shadow:0 8px 12px rgba(0,0,0,0.15); }
+
+  /* Footer */
+  footer { text-align:center; padding:30px 20px; font-size:0.9em; color:#666; background:#f2f2f2; }
+
+  /* Animations */
+  @keyframes fadeInDown { from {opacity:0; transform:translateY(-20px);} to {opacity:1; transform:translateY(0);} }
+  @keyframes fadeInUp { from {opacity:0; transform:translateY(20px);} to {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Turn Missed Calls Into Booked Appointments</h1>
+  <p>We automate customer follow-ups, manage missed calls, and ensure your appointments are always booked—effortlessly and continuously.</p>
+  <a class="cta" href="mailto:your@email.com">Get Started Today</a>
+</header>
+
+<section>
+  <h2>What We Do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Lead Capture</h3>
+      <p>Automatically capture every lead, ensuring no opportunity is ever missed.</p>
+    </div>
+    <div class="card">
+      <h3>Follow-Ups</h3>
+      <p>Smart follow-ups sent to clients instantly after missed calls or inquiries.</p>
+    </div>
+    <div class="card">
+      <h3>Appointment Scheduling</h3>
+      <p>Seamless appointment booking that fills your calendar without lifting a finger.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <p>Our system works continuously to keep your business growing. Efficient, reliable, and results-driven, we help you convert every opportunity into a loyal client.</p>
+</section>
+
+<section style="text-align:center;">
+  <a class="cta" href="mailto:your@email.com">Start Automating Today</a>
+</section>
+
+<footer>
+  &copy; 2026 Automated Customer Solutions. All rights reserved.
+</footer>
+
+</body>
+</html>
